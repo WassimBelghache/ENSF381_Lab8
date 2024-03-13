@@ -32,7 +32,7 @@ const HomePage = () => {
             <table style={styles.table}>
                 <thead>
                     <tr>
-                        <th style={styles.th}>Name</th>
+                        <th style={styles.th}>Cesar Garcia and Wassim Belghache</th>
                         <th style={styles.th}>Role</th>
                     </tr>
                 </thead>
