@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https :// dummyjson . com / products'
+const BASE_URL = 'https://dummyjson.com/products'
 
 // Fetches a list of all products
 export const fetchProducts = async () => {
