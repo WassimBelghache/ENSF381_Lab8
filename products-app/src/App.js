@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { ProductsProvider } from './context/ProductsContext'; 
+import { ProductsProvider } from './context/ProductsContext'; // Adjust the import path as necessary
 import ProductList from './components/ProductList';
 import ProductDetails from './components/ProductDetails';
 import ProductForm from './components/ProductForm';
@@ -17,7 +17,7 @@ function App() {
       <ProductsProvider>
         <Router>
           <div>
-
+            {/* Navigation Links */}
             <nav className="navbar navbar-expand navbar-light full-width">
               <div className="container-fluid">
                 <div className="collapse navbar-collapse" id="navbarNav">
@@ -42,6 +42,8 @@ function App() {
               </div>
             </nav>
 
+
+            {/* Routes for different pages */}
             <div className="container mt-3">
               <Routes>
                 <Route path="/products" element={<ProductList />} />
@@ -60,4 +62,3 @@ function App() {
 }
 
 export default App;
-
