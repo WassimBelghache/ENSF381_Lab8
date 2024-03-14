@@ -6,8 +6,8 @@
   align-items: start;
   justify-content: start;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
+  color:  white;
+} 
 
 .App > :first-child {
   width: 100%; 
